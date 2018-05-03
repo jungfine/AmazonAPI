@@ -1,0 +1,19 @@
+.link_title {
+  margin: 0;
+  font-family: "Helvetica Neue";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: Center;
+  background-color: #fff;
+}
+
+.link_image{
+	
+	width: 80%;
+	text-align: Center;
+	background-color: #ffffff;
+	padding: 15px;
+	
+}

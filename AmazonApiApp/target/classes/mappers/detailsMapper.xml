@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.etoplighting.mapper.DetailsMapper">
+
+<insert id="create">
+	insert into AsinTable (asin) values (#{asinID})
+</insert>
+
+<select id="listAsin" resultType="com.etoplighting.domain.DetailsVO">
+	select * from AsinTable
+</select>
+
+<delete id="delete">
+	delete from AsinTable where id=#{id}
+</delete>
+</mapper>
