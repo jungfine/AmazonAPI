@@ -56,6 +56,9 @@ public class DetailsDAOImpl implements DetailsDAO {
 		vo.add(list);
 		System.out.println("CHECK");
 		
+		listAsin();
+		System.out.println(listAsin());
+		
 		requestUrl = getAmazonapi(asinID2);
 		System.out.println("Signed Request is \"" + requestUrl + "\"");	
 		// MAKE API DATA LIST				

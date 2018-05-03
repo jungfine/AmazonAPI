@@ -20,7 +20,7 @@
 	<!-- MySQL Data Source -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
-		<property name="url" value="jdbc:log4jdbc://etoplighting.cxliyrly19yy.us-west-1.rds.amazonaws.com:3306/eToplighting:XE"></property>
+		<property name="url" value="jdbc:log4jdbc:mysql://etoplighting.cxliyrly19yy.us-west-1.rds.amazonaws.com:3306/eToplighting"></property>
 		<property name="username" value="rookie"></property>
 		<property name="password" value="gogopal2"></property>
 	</bean>
